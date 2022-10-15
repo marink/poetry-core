@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "git-project-sample"
+version = "1.2.3"
+description = "Test TOML for Git dependencies."
+authors = ["Marin Kokona"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+poetry-core-vendor = { git = "https://github.com/python-poetry/poetry-core.git", branch = "master", subdirectory = "vendor" }
